@@ -12,7 +12,9 @@ public class BPercorrerVetor {
         }
 
         //Percorrer array inverso
-        
+        for(int i=vetor.length-1;i>=0;i--){
+            System.out.println(vetor[i]);
+        }
 
     }
 
